@@ -1,8 +1,8 @@
 # PyTorch 101
 
-- [TRAINING A CLASSIFIER](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html)
+- [Training a Classifier : PyTorch](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html)
 - [torchvision.datasets : default datasets of PyTorch](https://pytorch.org/docs/stable/torchvision/datasets.html)
-- [A detailed example of how to generate your data in parallel with PyTorch](https://stanford.edu/~shervine/blog/pytorch-how-to-generate-data-parallel)
-- [Dataloader : TORCH.UTILS.DATA](https://pytorch.org/docs/stable/data.html)
-- [WRITING CUSTOM DATASETS, DATALOADERS AND TRANSFORMS](https://pytorch.org/tutorials/beginner/data_loading_tutorial.html)
+- [Creating dataset class](https://stanford.edu/~shervine/blog/pytorch-how-to-generate-data-parallel)
+- [Dataloader : torch.utils.data](https://pytorch.org/docs/stable/data.html)
+- [Writing Custom Datasets, Dataloaders and Transforms](https://pytorch.org/tutorials/beginner/data_loading_tutorial.html)
 
