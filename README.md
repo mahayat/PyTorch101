@@ -7,3 +7,17 @@
 - [Dataloader : torch.utils.data](https://pytorch.org/docs/stable/data.html)
 - [Writing Custom Datasets, Dataloaders and Transforms](https://pytorch.org/tutorials/beginner/data_loading_tutorial.html)
 
+# DDP
+
+- [DDP101](https://yangkky.github.io/2019/07/08/distributed-pytorch-tutorial.html)
+- [Getting Started with DDP](https://pytorch.org/tutorials/intermediate/ddp_tutorial.html)
+- [DDP application with PyTorch](https://pytorch.org/tutorials/intermediate/dist_tuto.html)
+- [PyTorch distributed trainer for AWS](https://pytorch.org/tutorials/beginner/aws_distributed_training_tutorial.html)
+- [Do Detailed](http://www.telesens.co/2019/04/04/distributed-data-parallel-training-using-pytorch-on-aws/)
+- [Apex](https://nvidia.github.io/apex/index.html)
+
+# Containers
+
+- [Docker - Singularity - Shifter](https://tin6150.github.io/psg/blogger_container_hpc.html)
+- [HPC School 2019](https://ulhpc-tutorials.readthedocs.io/en/latest/containers/singularity/slides.pdf)
+- [Interesting...](https://www.stackhpc.com/the-state-of-hpc-containers.html)
