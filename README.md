@@ -16,6 +16,8 @@
 - [Do Detailed](http://www.telesens.co/2019/04/04/distributed-data-parallel-training-using-pytorch-on-aws/)
 - [Apex](https://nvidia.github.io/apex/index.html)
 
+- [torch.distributed](https://pytorch.org/docs/stable/distributed.html)
+
 # Containers
 
 - [Docker - Singularity - Shifter](https://tin6150.github.io/psg/blogger_container_hpc.html)
