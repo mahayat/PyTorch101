@@ -15,7 +15,6 @@
 - [PyTorch distributed trainer for AWS](https://pytorch.org/tutorials/beginner/aws_distributed_training_tutorial.html)
 - [Do Detailed](http://www.telesens.co/2019/04/04/distributed-data-parallel-training-using-pytorch-on-aws/)
 - [Apex](https://nvidia.github.io/apex/index.html)
-
 - [torch.distributed](https://pytorch.org/docs/stable/distributed.html)
 
 # Containers
