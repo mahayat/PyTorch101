@@ -12,6 +12,7 @@
 - [DDP101](https://yangkky.github.io/2019/07/08/distributed-pytorch-tutorial.html)
 - [Getting Started with DDP](https://pytorch.org/tutorials/intermediate/ddp_tutorial.html)
 - [DDP application with PyTorch](https://pytorch.org/tutorials/intermediate/dist_tuto.html)
+- [DDP](https://pytorch.org/docs/master/notes/ddp.html)
 - [PyTorch distributed trainer for AWS](https://pytorch.org/tutorials/beginner/aws_distributed_training_tutorial.html)
 - [Do Detailed](http://www.telesens.co/2019/04/04/distributed-data-parallel-training-using-pytorch-on-aws/)
 - [Apex](https://nvidia.github.io/apex/index.html)
