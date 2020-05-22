@@ -1,4 +1,8 @@
-# PyTorch 101
+- `module load esslurm`
+- `module load pytorch/v1.4.0` [updated](https://docs.nersc.gov/analytics/machinelearning/pytorch/)
+- `salloc -C gpu -N 1 --time 60 --ntasks 1 --gpus-per-task 1 --cpus-per-task 10` [interactive](https://docs.nersc.gov/jobs/interactive/)[examples](https://docs.nersc.gov/jobs/examples/)
+
+# PyTorch (DDP) 101
 
 - [Training a Classifier : PyTorch](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html)
 - [torchvision.datasets : default datasets of PyTorch](https://pytorch.org/docs/stable/torchvision/datasets.html)
