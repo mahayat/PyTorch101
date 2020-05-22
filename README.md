@@ -3,7 +3,7 @@
 - `salloc -C gpu -N 1 --time 60 --ntasks 1 --gpus-per-task 1 --cpus-per-task 10` [[interactive jobs]](https://docs.nersc.gov/jobs/interactive/)[[examples]](https://docs.nersc.gov/jobs/examples/)
 - `pip --user install ANYTHING`
 - `srun python SCRIPT` 
-- OR `srun --pty bash`
+- OR `srun --pty bash` [[prompt]](https://slurm.schedmd.com/faq.html#prompt)
 - `ssh NODE`
 - `srun nvidia-smi`
 
