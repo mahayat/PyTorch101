@@ -1,5 +1,7 @@
+# Routine Commands (NERSC)
+
 - `module load esslurm`
-- `module load pytorch/v1.4.0` [[updated]](https://docs.nersc.gov/analytics/machinelearning/pytorch/)
+- `module laod pytorch/v1.4.0-gpu` [[updated]](https://docs.nersc.gov/analytics/machinelearning/pytorch/)
 - `salloc -C gpu -N 1 --time 60 --ntasks 1 --gpus-per-task 1 --cpus-per-task 10` [[interactive jobs]](https://docs.nersc.gov/jobs/interactive/)[[examples]](https://docs.nersc.gov/jobs/examples/)
 - `pip --user install ANYTHING`
 - `srun python SCRIPT` 
