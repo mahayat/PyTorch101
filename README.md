@@ -24,10 +24,16 @@ def main():
     torch.multiprocessing.spawn(*args, **kwargs)
     ...
 
-def train():
+def train(gpu, *args, **kwargs):
     ...
-    torch.distributed.init_process_group(*args, **kwargs) ()
+    torch.distributed.init_process_group(*args, **kwargs)
     ...
+    model.cuda(gpu)
+    ...
+    torch.nn.parallel.DistributedDataParallel(model,device_ids=[gpu])
+    ...
+    train_sampler = torch.utils.data.distributed.DistributedSampler(train_dataset_class)
+    torch.utils.data.DataLoader(dataset, batch_size, sampler=train_sampler)
 ``` 
 # PyTorch (DDP) 101
 
