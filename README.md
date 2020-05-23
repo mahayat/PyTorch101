@@ -9,8 +9,10 @@
 - `ssh NODE`
 - `srun nvidia-smi`
 
-# DDP SETUP
--- No DDP Setup
+## DDP SETUP
+`def main():
+  ...`
+## No DDP Setup
 - def main():
   ...
 - def train():
@@ -24,7 +26,7 @@
   ...
   torch.distributed.init_process_group(*args, **kwargs)
   ...
- `
+ 
 # PyTorch (DDP) 101
 
 - [Training a Classifier : PyTorch](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html)
