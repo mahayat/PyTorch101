@@ -11,10 +11,10 @@
 
 # DDP SETUP
 - No DDP Setup
-`def main():
+def main():
   ...
- def train():
-  ...`
+def train():
+  ...
 - DDP Setup
 `def main():
   ...
