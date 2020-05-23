@@ -9,10 +9,10 @@
 - `ssh NODE`
 - `srun nvidia-smi`
 
-## DDP SETUP
-`def main():
-  ...`
-## No DDP Setup
+### DDP SETUP
+- `def main():`
+-   `...`
+### No DDP Setup
 - def main():
   ...
 - def train():
