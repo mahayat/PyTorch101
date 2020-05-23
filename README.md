@@ -10,14 +10,14 @@
 - `srun nvidia-smi`
 
 # DDP SETUP
-- No DDP Setup
-def main():
+-- No DDP Setup
+- def main():
   ...
-def train():
+- def train():
   ...
-- DDP Setup
-`def main():
-  ...
+-- DDP Setup
+- def main():
+-   ...
   [torch.multiprocessing.spawn(*args, **kwargs)](https://pytorch.org/docs/stable/multiprocessing.html#torch.multiprocessing.spawn)
   ...
  def train():
