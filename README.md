@@ -10,8 +10,10 @@
 - `srun nvidia-smi`
 
 ### DDP SETUP
-- `def main():`
--   `...`
+```
+def main():
+  ...
+```
 ### No DDP Setup
 - def main():
   ...
