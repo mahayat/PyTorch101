@@ -37,7 +37,8 @@ def train(gpu, args):
 ``` 
 
 # DataParallel
-- DataParallel splits your data automatically and sends job orders to multiple models on several GPUs. After each model finishes their job, DataParallel collects and merges the results before returning it to you. [tutorial 1](https://pytorch.org/tutorials/beginner/blitz/data_parallel_tutorial.html)
+- DataParallel splits your data automatically and sends job orders to multiple models on several GPUs. After each model finishes their job, DataParallel collects and merges the results before returning it to you. [[tutorial 1]](https://pytorch.org/tutorials/beginner/blitz/data_parallel_tutorial.html)
+- `model = nn.DataParallel(model)`
 
 # PyTorch (DDP) 101
 
